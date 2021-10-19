@@ -59,7 +59,15 @@ function attribute(){
         "022 None NA HSilver NA NA NA NA Line EDemon/Angel Black/Yellow Clench LongSleeve CDarkGrey None BPurple WClosed Wblack BKPurple",
         "023 None NA HOrange Demon/Angel Ring NA RingGold Thick/ThinV2 EDemon/Angel Black/Yellow MOpen None/Shirt NA None BDarkGrey None NA BKPurple",
         "024 4xHorns/2Halos DarkGold/Gold HGreen NA NA NA NA Line EDemon/Angel Black/Yellow MNormal None/Shirt NA None BDarkGrey WClosed Wyellow BKYellow",
-        "025 4xHorns/2Halos DarkGreen/Orange HSilver NA NA NA NA None/Small Cat EYellow Clench LongSleeve CWhite A&D BRed WClosed Wyellow BKBlue"];
+        "025 4xHorns/2Halos DarkGreen/Orange HSilver NA NA NA NA None/Small Cat EYellow Clench LongSleeve CWhite A&D BRed WClosed Wyellow BKBlue",
+        "026 LongHorn/Cross DarkSilver HYellow Demon/Angel NA NA NA Thick/ThinV2 ENormal ERed MNormal Suit/Dress CPurple Yieldly BRed WOpen Wblack BKGrey",
+        "027 LongHorn/Cross DarkGreen/Orange HSilver Ring Dots Demon/Angel RingGold Thick/ThinV2 EDemon/Angel Black/Yellow Tongue LongSleeve CWhite None BPink None NA BKGrey",
+        "028 None NA HOrange NA NA NA NA None/Small ENormal EGreen MNormal DressShirt CPurple Algo BYellow None NA BKRed",
+        "029 None NA HOrange Demon/Angel Dots NA NA None/Small EDemon/Angel Black/Yellow Tongue DressShirt CDarkGrey None BBlue WOpen Wblack BKYellow",
+        "030 None NA HSilver Demon/Angel Ring NA RingGold Thick/ThinV2 EDemon/Angel Black/Yellow Clench LongSleeve CDarkGrey Yieldly BYellow None NA BKPurple"
+     
+     
+     ];
 
     var attributeArray2 = attributeArray
 
