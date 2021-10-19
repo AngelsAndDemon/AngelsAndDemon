@@ -1,9 +1,11 @@
+
 <html>
 	<head>
-		<link rel = "stylesheet" type= "text/css" href = "style.css">
 		
+		<script src="filter.js"></script> 
+        <script src="dropDown.js"></script>
 		<title>Angel & Demon</title>
-		<script src="link.js"></script> 
+
 	</head>
 	<body>
 			<div class = "title">
@@ -52,29 +54,33 @@
                         <br>
                         Total Supply is:
                         <br><br>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - 496x Angels<br>
-                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - 496x Demons
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - 469x Angels<br>
+                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - 469x Demons
                     </p2>
                     <br><br>
                     <p3>Price</p3><br><br>
 
                     <p2>
-                        Angel/Demon 0-50: &nbsp&nbsp&nbsp&nbsp&nbsp 10A &nbsp&nbsp&nbsp&nbsp Angel/Demon 251-350: 40A<br>
-                        Angel/Demon 51-100: &nbsp 15A &nbsp&nbsp&nbsp&nbsp Angel/Demon 351-400: 50A<br>
-                        Angel/Demon 101-150:&nbsp20A &nbsp&nbsp&nbsp&nbsp Angel/Demon 401-469: 60A<br>
-                        Angel/Demon 151-250: 30A<br>
+                        Angel/Demon 0-50: &nbsp&nbsp&nbsp&nbsp&nbsp 10A &nbsp&nbsp&nbsp&nbsp Angel/Demon 250-350: 40A<br>
+                        Angel/Demon 50-100: &nbsp 15A &nbsp&nbsp&nbsp&nbsp Angel/Demon 350-400: 50A<br>
+                        Angel/Demon 100-150:&nbsp20A &nbsp&nbsp&nbsp&nbsp Angel/Demon 400-469: 60A<br>
+                        Angel/Demon 150-250: 30A<br>
                         <p4>
                         *Collaboration Projects and giveaways (free) may have specifal price.
                         </p4>
 
                     </p2>
                 </div> 
-                <div class = "emptyRow2"></div>
+            </div>
+        
+        
+            <div class = "emptyRow2"></div>
+            <div>
                 <div class = "column40">
                     <p3>Attribute variations and Rarity</p3><br><br>
                     <br>
                     <p2>  
-                        All attributes are randomly selected by Algorithm.
+                        All attributes are randomly selected via Discord Bot.
                         <br><br>
                         Some attribute will be more rare than others and some attributes have equal chance. Rarity Chart Can be seen on the right. Both Angel and Demon has the same probability of rarity as some colors and attributes are specific to each.
                         <br><br>
@@ -88,9 +94,10 @@
                         <div class = "bigAngel">
                             <img src = /image/DemonRarity.png>
                         </div>
-                </div>     
+                </div>  
+            </div>
                 <div class = "emptyRow2"></div>
-                
+            <div>
                 <div class = "column30">
                         <div class = "bigAngel">
                             <img src = /image/005D.jpg>
@@ -109,32 +116,191 @@
                     
                     </p2>
 
-                    <br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br>
 
                 </div> 
-                
-                <div class = "emptyRow2"></div>
-                <div class = "column60">
-                    <p3>Searchable Attribute</p3><br><br>
-                    
-                        <div class = "title">
-				            <h1>Coming soon</h1>
-                        </div>
-        
-                    <p2>Search Angels/Demons with certain attributes!</p2>
-                        
-                    <br><br>
-
-                </div> 
-                <div class = "column30">
-                        <div class = "bigAngel">
-                            <img src = /image/001A.jpg>
-                        </div>
-                </div>
-
             </div>
+
+            <div class = "center">
+                <div class = "column90">
+                    <p3>Current Statistics</p3><br><br>
+                    <div id ="info"></div>
+                </div> 
+            </div>
+        
+            <div class = "emptyRow2"></div>
+        
+            <div>
+            <div class = "center">    
+                <div class = "column90">
+                    <p3>Project Statistics</p3><br><br>
+        
+                    <p2>There is theoretical attribute probablity but what is the actual probabilty from the actual minted? Figure it out here! <br>
+                     Click on "All" to see all minted or reset filter</p2>
+                    
+                </div>
+                <div class = "emptyRow"></div>
+                <div><button class="btn active" onclick="filterSelection('all')"> All / Reset</button></div>
+                 <div class = "emptyRow"></div>
+                <div class = statsRate id="statistics"></div>
+            </div>
+  
+              <div>       
+                 <div class = "column90" >
+                    <div class = "buttonContain" id="myBtnContainer">
+                            <select id="horn" onchange="filterSelection(document.getElementById('horn').value)">    
+                                <option value = "c1">Horns/Halos</option>
+                                <option value="ShortHorn/Ring">Short/Ring</option>
+                                <option value="LongHorn/Cross">Long/Cross</option>
+                                 <option value="4xHorns/2Halos">Both</option>
+                            </select>
+                           <select id="hornColor" onchange="filterSelection(document.getElementById('hornColor').value)">         
+                                <option value = "c2">Horn Color</option>
+                                <option value="DarkGreen/Orange">Dark Green/Orange</option>
+                                <option value="DarkSilver">Dark Silver</option>
+                                <option value="DarkGold/Gold">Dark Gold/Gold</option>
+                            </select>
+                        
+                          <select id="hairColor" onchange="filterSelection(document.getElementById('hairColor').value)">         
+                                <option value = "c3">Hair Color</option>
+                                    <option value="HRed">Red</option>
+                                  <option value="HOrange">Orange</option>
+                                  <option value="HBlue">Blue</option>
+                                  <option value="HGreen">Green</option>
+                                  <option value="HYellow">Yellow</option>
+                                  <option value="HPurple">Purple</option>
+                                  <option value="HPink">Pink</option>
+                                  <option value="HSilver">Silver</option>
+                                  <option value="HDarkGrey">Black</option>
+                            </select>
+                          <select id="eyebrowChoice" onchange="filterSelection(document.getElementById('eyebrowChoice').value)">      
+                                <option value = "c4">Eyebrow Type</option>
+                                  <option value="None/Small">None/Small</option>
+                                  <option value="Line">Line</option>
+                                  <option value="Thin">Thin</option>
+                                  <option value="Thick/ThinV2">Thick/Thin Type2</option>
+                        </select>
+                        <select id="eyeChoice" onchange="filterSelection(document.getElementById('eyeChoice').value)">      
+                                <option value = "c5" >Eye Choice</option>
+                                <option value="EDemon/Angel">Demon/Angel</option>
+                                <option value="ENormal">Normal</option>
+                                <option value="Cat">Cat</option>
+                                <option value="Special1">Special1</option>
+                                <option value="Special2">Special2</option>
+                        </select>
+                        <select id="eyeColor" onchange="filterSelection(document.getElementById('eyeColor').value)">         
+                                <option value = "c6">Eye Color</option>
+                                <option value="ERed">Red</option>
+                                <option value="EOrange">Orange</option>
+                                <option value="EBlue">Blue</option>
+                                <option value="EGreen">Green</option>
+                                <option value="EYellow">Yellow</option>
+                                <option value="EPurple">Purple</option>
+                                <option value="EPink">Pink</option>
+                                <option value="ESilver">Silver</option>
+                        </select>
+
+                        <select id="mouth" onchange="filterSelection(document.getElementById('mouth').value)">         
+                                <option value = "c7">Mouth Type</option>
+                                <option value="MNormal">Normal</option>
+                                <option value="MOpen">Open</option>
+                                <option value="Tongue">Tongue</option>
+                                <option value="Clench">Clench</option>
+                                <option value="Smoke">Smoke</option>
+                        </select>
+                        <select id="accessoryCount" onchange="filterSelection(document.getElementById('accessoryCount').value)">      
+                                <option value = "c8">Accessory Count</option>
+                                <option value="0">0</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                        </select>
+                        <select id="accessoryType" onchange="filterSelection(document.getElementById('accessoryType').value)">      
+                                <option value = "c9">Accessory Type</option>
+                                <option value="Ring">Ring</option>
+                                <option value="Dots">Dots</option>
+                                <option value="Demon/Angel">Demon/Angel</option>
+
+                        </select>
+                        <select id="ringColor" onchange="filterSelection(document.getElementById('ringColor').value)">      
+                                <option value = "c10">Ring Color</option>
+                                <option value="RingGold">Gold</option>
+                                <option value="RingSilver"></option>
+                        </select>
+                        <select id="clothes" onchange="filterSelection(document.getElementById('clothes').value)">
+                                <option value = "c11">Clothes</option>
+                                <option value = "None/Shirt">None/Shir</option>
+                                <option value="LongSleeve">LongSleeve</option>
+                                <option value="DressShirt">Dress Shirt</option>
+                                <option value="Suit/Dress">Suit/Dress</option>
+                        </select>
+                        
+                        <select id="clotheColor" onchange="filterSelection(document.getElementById('clotheColor').value)">
+                                <option value = "c12">Clothe Color</option>
+                                <option value = "CWhite">White</option>
+                                <option value="CDarkGrey">Dark Grey</option>
+                                <option value="CYellow">Yellow</option>
+                                <option value="CPurple">Purple</option>
+                        </select>
+
+                        <select id="clothLogo" onchange="filterSelection(document.getElementById('clothLogo').value)">
+                                <option value = "c13">Body/Shirt Logo</option>
+                                <option value = "Algo">Algo</option>
+                                <option value="Yieldly">Yieldly</option>
+                                <option value="A&D">A&D</option>
+                                <option value="666/Cross">666/Cross</option>
+                                <option value="Slime">Slime</option>
+                        </select>
+
+                         <select id="bodyColor" onchange="filterSelection(document.getElementById('bodyColor').value)">         
+                                <option value = "c14">Body Color</option>
+                                <option value="BRed">Red</option>
+                                <option value="BOrange">Orange</option>
+                                <option value="BBlue">Blue</option>
+                                <option value="BGreen">Green</option>
+                                <option value="BYellow">Yellow</option>
+                                <option value="BPurple">Purple</option>
+                                <option value="BPink">Pink</option>
+                                <option value="BSilver">Silver</option>
+                                <option value="BDarkGrey">Dark Grey</option>
+                        </select>
+                        
+                      <select id="wingChoice" onchange="filterSelection(document.getElementById('wingChoice').value)">
+                                <option value = "c15">Wing Choice</option>
+                                <option value = "WClosed">Closed</option>
+                                <option value="WOpen">Open</option>
+                        </select>
+
+                         <select id="wingColor" onchange="filterSelection(document.getElementById('wingColor').value)">
+                                <option value = "c16">Wing Color</option>
+                                <option value ="Wred">Red</option>
+                                <option value="Wyellow">Yellow</option>
+                                <option value="Wwhite">White</option>
+                                <option value="Wblack">Black</option>
+                        </select>
+
+                         <select id="bkColor" onchange="filterSelection(document.getElementById('bkColor').value)">
+                             <option value = "c17">Bk Color</option>
+                                <option value = "BKYellow">Yellow</option>
+                                <option value="BKGrey">Grey</option>
+                                <option value="BKBlue">Blue</option>
+                                <option value="BKPurple">Purple</option>
+                                <option value="BKRed">Red</option>
+                        </select>
+                    </div>
+                </div>
+                    <div id="selection"></div>
+                        
+                  </div>
+             </div> 
+
+
+
+
+                
             
-
-
+                <script src="AlgoAPI.js"></script>
+                <link rel = "stylesheet" type= "text/css" href = "style.css">
+           
     </body>
 </html>
