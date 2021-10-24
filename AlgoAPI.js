@@ -64,11 +64,11 @@ function attribute(){
         "027 LongHorn/Cross DarkGreen/Orange HSilver Ring Dots Demon/Angel RingGold Thick/ThinV2 EDemon/Angel Black/Yellow Tongue LongSleeve CWhite None BPink None NA BKGrey",
         "028 None NA HOrange NA NA NA NA None/Small ENormal EGreen MNormal DressShirt CPurple Algo BYellow None NA BKRed",
         "029 None NA HOrange Demon/Angel Dots NA NA None/Small EDemon/Angel Black/Yellow Tongue DressShirt CDarkGrey None BBlue WOpen Wblack BKYellow",
-        "030 None NA HSilver Demon/Angel Ring NA RingGold Thick/ThinV2 EDemon/Angel Black/Yellow Clench LongSleeve CDarkGrey Yieldly BYellow None NA BKPurple"
-        "031 LongHorn/Cross DarkSilver HRed Ring Dots Demon/Angel RingGold None/Small Special2 EPurple Clench None/Shirt NA Yieldly BRed None NA BKBlue"
-        "032 LongHorn/Cross DarkGold/Gold HPink Demon/Angel NA NA NA None/Small Cat ERed Tongue None/Shirt NA None BDarkGrey WOpen Wyellow BKYellow"
-        "033 4xHorns/2Halos DarkGreen/Orange HPurple NA NA NA NA Thin ENormal EGreen Tongue None/Shirt NA Algo BR"
-        "034 None NA HPink Dots NA NA NA None/Small Special1 EGreen Tongue DressShirt CWhite None BYellow WOpen Wyellow BKYellow"
+        "030 None NA HSilver Demon/Angel Ring NA RingGold Thick/ThinV2 EDemon/Angel Black/Yellow Clench LongSleeve CDarkGrey Yieldly BYellow None NA BKPurple",
+        "031 LongHorn/Cross DarkSilver HRed Ring Dots Demon/Angel RingGold None/Small Special2 EPurple Clench None/Shirt NA Yieldly BRed None NA BKBlue",
+        "032 LongHorn/Cross DarkGold/Gold HPink Demon/Angel NA NA NA None/Small Cat ERed Tongue None/Shirt NA None BDarkGrey WOpen Wyellow BKYellow",
+        "033 4xHorns/2Halos DarkGreen/Orange HPurple NA NA NA NA Thin ENormal EGreen Tongue None/Shirt NA Algo BR",
+        "034 None NA HPink Dots NA NA NA None/Small Special1 EGreen Tongue DressShirt CWhite None BYellow WOpen Wyellow BKYellow",
         "035 LongHorn/Cross DarkGreen/Orange HPink NA NA NA NA Thick/ThinV2 ENormal EPink MOpen Suit/Dress CYellow None BGreen WOpen Wred BKBlue"
      
      ];
