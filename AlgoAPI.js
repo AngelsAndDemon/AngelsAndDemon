@@ -69,7 +69,17 @@ function attribute(){
         "032 LongHorn/Cross DarkGold/Gold HPink Demon/Angel NA NA NA None/Small Cat ERed Tongue None/Shirt NA None BDarkGrey WOpen Wyellow BKYellow",
         "033 4xHorns/2Halos DarkGreen/Orange HPurple NA NA NA NA Thin ENormal EGreen Tongue None/Shirt NA Algo BR",
         "034 None NA HPink Dots NA NA NA None/Small Special1 EGreen Tongue DressShirt CWhite None BYellow WOpen Wyellow BKYellow",
-        "035 LongHorn/Cross DarkGreen/Orange HPink NA NA NA NA Thick/ThinV2 ENormal EPink MOpen Suit/Dress CYellow None BGreen WOpen Wred BKBlue"
+        "035 LongHorn/Cross DarkGreen/Orange HPink NA NA NA NA Thick/ThinV2 ENormal EPink MOpen Suit/Dress CYellow None BGreen WOpen Wred BKBlue",
+        "036 LongHorn/Cross DarkGreen/Orange HOrange Ring NA NA RingGold Line EDemon/Angel Black/Yellow Smoke DressShirt CWhite Yieldly BSilver WOpen Wyellow BKRed",
+        "037 None NA HPurple Demon/Angel NA NA NA Thick/ThinV2 ENormal EPurple MNormal None/Shirt NA Yieldly BRed None NA BKPurple",
+        "038 ShortHorn/Ring DarkSilver HYellow Ring Dots NA RingSilver Line EDemon/Angel Black/Yellow Clench Suit/Dress CWhite Algo BBlue WClosed Wwhite BKPurple"
+        "039 None NA HBlue Ring Dots Demon/Angel RingGold Thin ENormal EPurple Tongue None/Shirt NA Slime BRed None NA BKYellow",
+        "040 ShortHorn/Ring DarkSilver HDarkGrey Dots NA NA NA Thick/ThinV2 Special1 EYellow MOpen LongSleeve CWhite A&D BPink WClosed Wblack BKRed",
+        "041 ShortHorn/Ring DarkSilver HDarkGrey NA NA NA NA Line ENormal ERed Clench Suit/Dress CDarkGrey None BDarkGrey WOpen Wwhite BKYellow",
+        "042 ShortHorn/Ring DarkGreen/Orange HPink NA NA NA NA Thin EDemon/Angel Black/Yellow Clench DressShirt CYellow None BSilver WClosed Wwhite BKRed",
+        "043 ShortHorn/Ring DarkSilver HOrange NA NA NA NA Thin Cat EPurple MOpen Suit/Dress CPurple Yieldly BGreen WClosed Wwhite BKGrey",
+        "044 LongHorn/Cross DarkSilver HPurple Ring NA NA RingGold Line Special2 EBlue MOpen None/Shirt NA Algo BGreen None NA BKRed",
+        "045 ShortHorn/Ring DarkGreen/Orange HRed Dots NA NA NA Thin ENormal ESilver MOpen Suit/Dress CPurple None BPink WOpen Wblack BKRed
      
      ];
 
