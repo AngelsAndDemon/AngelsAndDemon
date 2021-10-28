@@ -79,7 +79,7 @@ function attribute(){
         "042 ShortHorn/Ring DarkGreen/Orange HPink NA NA NA NA Thin EDemon/Angel Black/Yellow Clench DressShirt CYellow None BSilver WClosed Wwhite BKRed",
         "043 ShortHorn/Ring DarkSilver HOrange NA NA NA NA Thin Cat EPurple MOpen Suit/Dress CPurple Yieldly BGreen WClosed Wwhite BKGrey",
         "044 LongHorn/Cross DarkSilver HPurple Ring NA NA RingGold Line Special2 EBlue MOpen None/Shirt NA Algo BGreen None NA BKRed",
-        "045 ShortHorn/Ring DarkGreen/Orange HRed Dots NA NA NA Thin ENormal ESilver MOpen Suit/Dress CPurple None BPink WOpen Wblack BKRed
+        "045 ShortHorn/Ring DarkGreen/Orange HRed Dots NA NA NA Thin ENormal ESilver MOpen Suit/Dress CPurple None BPink WOpen Wblack BKRed"
      
      ];
 
