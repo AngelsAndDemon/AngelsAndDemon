@@ -79,7 +79,12 @@ function attribute(){
         "042 ShortHorn/Ring DarkGreen/Orange HPink NA NA NA NA Thin EDemon/Angel Black/Yellow Clench DressShirt CYellow None BSilver WClosed Wwhite BKRed",
         "043 ShortHorn/Ring DarkSilver HOrange NA NA NA NA Thin Cat EPurple MOpen Suit/Dress CPurple Yieldly BGreen WClosed Wwhite BKGrey",
         "044 LongHorn/Cross DarkSilver HPurple Ring NA NA RingGold Line Special2 EBlue MOpen None/Shirt NA Algo BGreen None NA BKRed",
-        "045 ShortHorn/Ring DarkGreen/Orange HRed Dots NA NA NA Thin ENormal ESilver MOpen Suit/Dress CPurple None BPink WOpen Wblack BKRed"
+        "045 ShortHorn/Ring DarkGreen/Orange HRed Dots NA NA NA Thin ENormal ESilver MOpen Suit/Dress CPurple None BPink WOpen Wblack BKRed",
+        "046 None NA HOrange Ring Dots Demon/Angel RingGold Thick/ThinV2 Cat ESilver MNormal DressShirt CPurple Yieldly BPink WOpen Wyellow BKPurple",
+        "047 LongHorn/Cross DarkGreen/Orange HOrange NA NA NA NA Thick/ThinV2 ENormal EGreen Clench DressShirt CWhite None BOrange WClosed Wwhite BKGrey",
+        "048 LongHorn/Cross DarkSilver HPurple NA NA NA NA None/Small ENormal EPurple Tongue LongSleeve CWhite None BGreen WClosed Wblack BKBlue",
+        "049 4xHorns/2Halos DarkSilver HPink NA NA NA NA None/Small ENormal EBlue MNormal DressShirt CPurple None BDarkGrey WClosed Wyellow BKRed",
+        "050 ShortHorn/Ring DarkGreen/Orange HGreen Demon/Angel NA NA NA None/Small Cat EYellow Clench None/Shirt NA None BPurple WClosed Wblack BKBlue"
      
      ];
 
